@@ -4,8 +4,9 @@
 CREATE TABLE
 IF NOT EXISTS members
 (
+    id AUTO_INCREMENT INT NOT NULL,
     name VARCHAR(225),
     PRIMARY KEY(id),
-    employedid int NOT NULL
-    FOREIGN KEY (employedid) REFERENCES employers(id)
+    employedId int NOT NULL,
+    FOREIGN KEY (employedId) REFERENCES employers(id)
 )
