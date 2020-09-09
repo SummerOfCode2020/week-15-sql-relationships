@@ -5,5 +5,5 @@ IF NOT EXISTS members
   name VARCHAR(200),
   employedId INT
   PRIMARY KEY (id),
-  FOREIGN KEY (id) REFERENCES employers (id)
+  FOREIGN KEY (employedId) REFERENCES employers (id)
 )
