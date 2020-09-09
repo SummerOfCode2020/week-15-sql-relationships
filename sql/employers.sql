@@ -7,8 +7,8 @@
 CREATE TABLE
 IF NOT EXISTS employers
 (
-    employer_id INT AUTO_INCREMENT NOT NULL, 
+    id INT AUTO_INCREMENT NOT NULL, 
     name VARCHAR(225) NOT NULL UNIQUE,
-    PRIMARY KEY(employer_id)
+    PRIMARY KEY(id)
 
 )
