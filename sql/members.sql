@@ -5,5 +5,5 @@ IF NOT EXISTS members
   name VARCHAR(225) NOT NULL
   employerId INT NOT NULL
   PRIMARY KEY (id)
-  FOREIGN KEY(employerId) REFERENCES employers(id)
+  FOREIGN KEY(employerId) REFERENCES employers(id) ON DELETE CASCADE
 )
