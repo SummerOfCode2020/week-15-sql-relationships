@@ -1,0 +1,9 @@
+
+
+CREATE TABLE 
+IF NOT EXISTS members
+(
+    id AUTO_INCREMENT  INT NOT NULL,
+    name VARCHAR(250),
+    PRIMARY KEY (id)
+)
