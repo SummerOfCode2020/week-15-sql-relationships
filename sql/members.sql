@@ -3,5 +3,7 @@ IF NOT EXISTS members
 (
     id AUTO_INCREMENT INT NOT NULL,
     name VARCHAR(225) NOT NULL UNIQUE,
-    PRIMARY KEY (id)
+    employedId INT,
+    PRIMARY KEY (id),
+    FOREIGN KEY (employedId) REFERENCES employers (id)
 );
