@@ -6,6 +6,6 @@ IF NOT EXISTS members
 (
     name VARCHAR(225),
     PRIMARY KEY(id),
-    employedid int AUTO_INCREMENT NOT NULL
-    FOREIGN KEY (employedid) REFERENCES employers(name)
+    employedid int NOT NULL
+    FOREIGN KEY (employedid) REFERENCES employers(id)
 )
