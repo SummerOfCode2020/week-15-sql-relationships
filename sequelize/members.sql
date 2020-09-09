@@ -1,0 +1,8 @@
+CREATE  TABLE 
+IF NOT EXISTS members
+(
+     id AUTO_INCREMENT INT NOT NULL,
+     name VARCHAR(220),
+     employeId VARCHAR(220)
+     PRIMARY KEY(id)
+)
