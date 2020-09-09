@@ -11,3 +11,4 @@ IF NOT EXISTS employers
   name VARCHAR(200),
   PRIMARY KEY(id),
 )
+
