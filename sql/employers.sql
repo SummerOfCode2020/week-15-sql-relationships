@@ -1,6 +1,8 @@
 create table if not exists employers
 (
-    ID AUTO_INCREMENT INT not null,
-    `name` VARCHAR (250),
+    ID INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR (250),
     primary key (ID)
-)
+);
+
+
