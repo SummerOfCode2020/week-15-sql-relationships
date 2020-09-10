@@ -1,3 +1,4 @@
+-- must have space after two dashes for comment
 -- employers has id and name columns
 -- name VARCHAR
 -- id INT
@@ -6,7 +7,7 @@
 CREATE TABLE 
 IF NOT EXISTS employers
 (
-    id AUTO_INCREMENT INT NOT NULL,
+    id INT AUTO_INCREMENT NOT NULL,
     name VARCHAR(225),
     PRIMARY KEY(id)
 )
