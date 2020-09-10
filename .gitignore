@@ -1,2 +1,2 @@
 node_modules
-**/not-for-git-settings.js
+sequelize/not-for-git-settings.js
