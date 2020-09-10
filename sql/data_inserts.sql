@@ -30,11 +30,7 @@ WHERE name LIKE '%ax%';
 
 INSERT INTO members (employedId, name)
 VALUES
-(1, "Rory"),
-(1, "Julie"),
-(1, "Kyle"),
-(1, "Jerry"),
-(1, "George"),
+
 (1, "Michael"),
 (1, "Darryl");
 
