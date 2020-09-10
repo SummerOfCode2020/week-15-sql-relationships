@@ -1,15 +1,12 @@
+-- id INT
+-- name VARCHAR
+-- PK to define primary key
+-- can put back tick ` around the names option to avoid hitting sql keyword
 
-
---id INT
---name VARCHAR
---PK to define primary key
---can put back tick ` around the names option to avoid hitting sql keyword
-
-CREATE TABLE Employers
-IF NOT EXISTS
+CREATE TABLE 
+IF NOT EXISTS employers_HL
 (
-    id AUTO_INCREMENT INT, 
+    id INT AUTO_INCREMENT NOT NULL, 
     name VARCHAR(225), 
-    PRIMARY KEY(id),
-
+    PRIMARY KEY(id)
 )

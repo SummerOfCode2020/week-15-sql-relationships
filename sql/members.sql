@@ -1,9 +1,13 @@
---create a table to match the members table on the slide
---add, commit push and PR
+-- create a table to match the members table on the slide
+-- add, commit push and PR
+-- references employers table
 
-CREATE TABLE members
-IF NOT EXISTS
+CREATE TABLE 
+IF NOT EXISTS members_HL
 (
+    id INT AUTO_INCREMENT NOT NULL,
     name VARCHAR(225),
-    FOREIGN KEY(employerId) REFERENCES (id)
+    employedId INT,
+    PRIMARY KEY(id),
+    FOREIGN KEY(employedId) REFERENCES employers_hl(id)
 )
