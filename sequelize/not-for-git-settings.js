@@ -1,7 +1,7 @@
 module.exports = {
-    mysqlUrl: "mysql://bde20ee7c51015:3e39a5fe@us-cdbr-east-02.cleardb.com/heroku_09684ba4a58d7c4",
-    username: "bde20ee7c51015",
-    password: "3e39a5fe",
-    host: "heroku_09684ba4a58d7c4",
-    port: 3306
-} 
+  mysqlUrl:"mysql://b062e6b3e2676a:61d4ffe2@us-cdbr-east-02.cleardb.com/heroku_b8a85a7081a1c8c?reconnect=true",
+  username: "b062e6b3e2676a",
+  password: "61d4ffe2",
+  host: "heroku_b8a85a7081a1c8c",
+  port: 3306,
+}; 
