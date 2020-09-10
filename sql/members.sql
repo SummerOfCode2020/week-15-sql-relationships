@@ -8,10 +8,11 @@ CREATE TABLE IF NOT EXISTS members
 )
 
 insert into members (name, employer_id)
-VALUES ("John Doe", 11)
+VALUES ("Steve", 11)
 
 
 select a.name as "Name", b.name as "Employer"
 from members a
 join employers b on a.id = b.id
+where a.name = "Jane" Or a.name like "%J%"
 
